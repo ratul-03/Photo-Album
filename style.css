@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: #2ecc71;
+    padding: 20px 45px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.parent {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background: #f1c40f;
+}
+
+img {
+    vertical-align: middle;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;    
+    border: 10px solid #2ecc71;
+    margin-right: 1px;
+}
+
+.child {
+    flex-basis: 99%;
+}
+
+footer {
+    background: #8e44ad;
+    color: white;
+    padding: 20px 45px;
+    text-align: center;
+}
